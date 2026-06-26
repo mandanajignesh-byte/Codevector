@@ -122,7 +122,7 @@ client saw. The WHERE clause skips everything before that position.
 │   ├── crud.py           # All database queries
 │   ├── main.py           # FastAPI routes
 │   └── seed.py           # Database seed script (generate_series)
-├── frontend/
+├── ui/
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
