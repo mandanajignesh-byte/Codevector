@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="hero">
+            <h1>Product Browser</h1>
+            <p>Browse 200,000 products using fast cursor pagination.</p>
+        </header>
+
+        <!-- Duplicate alert — hidden by default, shown only if a bug occurs -->
+        <div id="duplicateAlert" class="duplicate-alert" style="display:none;"></div>
+
+        <section class="toolbar">
+
+            <select id="categorySelect">
+                <option value="">All Categories</option>
+            </select>
+
+            <button id="refreshButton">Refresh</button>
+
+            <!-- Inserts 50 new products server-side while you keep browsing -->
+            <button id="simulateButton" class="btn-secondary">
+                Simulate 50 Updates
+            </button>
+
+        </section>
+
+        <section id="products" class="products"></section>
+
+        <div class="actions">
+            <button id="loadMoreButton">Load More</button>
+        </div>
+
+        <p id="status" class="status"></p>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
