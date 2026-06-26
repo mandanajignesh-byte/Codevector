@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://codevector-4sko.onrender.com";
 
 const productsContainer = document.getElementById("products");
 const categorySelect = document.getElementById("categorySelect");
